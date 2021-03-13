@@ -6,3 +6,5 @@
 3、景区新闻
 4、社区
 5、可视化分析后台
+## 架构
+SpringCloud+Mybatis+redis+mysql
