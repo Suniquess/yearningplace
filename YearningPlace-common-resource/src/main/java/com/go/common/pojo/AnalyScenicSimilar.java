@@ -77,5 +77,15 @@ public class AnalyScenicSimilar {
 				+ ", scenicLikeId=" + scenicLikeId + ", scenicLikeName=" + scenicLikeName + ", madeDate=" + madeDate
 				+ "]";
 	}
+	
+	public Integer getCommCounta() {
+		return commCount;
+	}
+	public Integer getCommCountb() {
+		return commCount;
+	}
+	public Integer getCommCountc() {
+		return commCount;
+	}
 
 }

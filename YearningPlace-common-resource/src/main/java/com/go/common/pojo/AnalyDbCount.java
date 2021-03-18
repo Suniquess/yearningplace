@@ -87,5 +87,15 @@ public class AnalyDbCount {
 				+ ", lowvalueScenicCount=" + lowvalueScenicCount + ", commCount=" + commCount + ", userCount="
 				+ userCount + ", madeDt=" + madeDt + "]";
 	}
+	
+	public Integer getCommCounta() {
+		return commCount;
+	}
+	public Integer getCommCountb() {
+		return commCount;
+	}
+	public Integer getCommCountc() {
+		return commCount;
+	}
 
 }
