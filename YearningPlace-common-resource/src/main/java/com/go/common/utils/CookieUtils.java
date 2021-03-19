@@ -94,6 +94,14 @@ public final class CookieUtils {
             String cookieValue) {
         setCookie(request, response, cookieName, cookieValue, -1);
     }
+	public static void setCookie2(HttpServletRequest request, HttpServletResponse response, String cookieName,
+            String cookieValue) {
+        setCookie(request, response, cookieName, cookieValue, -1);
+    }
+	public static void setCookie3(HttpServletRequest request, HttpServletResponse response, String cookieName,
+            String cookieValue) {
+        setCookie(request, response, cookieName, cookieValue, -1);
+    }
 
     /**
      * 设置Cookie的值 在指定时间内生效,但不编码
