@@ -8,3 +8,7 @@
 5、可视化分析后台
 ## 架构
 SpringCloud+Mybatis+redis+mysql
+## 微服务模块
+YearningPlace-common-resource
+YearningPlace-Jsoup
+YearningPlace-parent
