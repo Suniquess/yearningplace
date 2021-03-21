@@ -50,4 +50,46 @@ public class ListTransUtils<T> {
 		}
 		
 	}
+	public List<T> transfor4(String json,Class<?> T){
+		try{
+			List<T> tList=null;
+			JsonNode data = MapperUtil.MP.readTree(json);
+			JsonParser parser = data.traverse();
+			CollectionType type = MapperUtil.MP.getTypeFactory().constructCollectionType(List.class, T);
+			tList=MapperUtil.MP.readValue(parser, type);
+			return tList;
+		}catch(Exception e){
+			e.printStackTrace();
+			return null;
+		}
+		
+	}
+	public List<T> transfor5(String json,Class<?> T){
+		try{
+			List<T> tList=null;
+			JsonNode data = MapperUtil.MP.readTree(json);
+			JsonParser parser = data.traverse();
+			CollectionType type = MapperUtil.MP.getTypeFactory().constructCollectionType(List.class, T);
+			tList=MapperUtil.MP.readValue(parser, type);
+			return tList;
+		}catch(Exception e){
+			e.printStackTrace();
+			return null;
+		}
+		
+	}
+	public List<T> transfor6(String json,Class<?> T){
+		try{
+			List<T> tList=null;
+			JsonNode data = MapperUtil.MP.readTree(json);
+			JsonParser parser = data.traverse();
+			CollectionType type = MapperUtil.MP.getTypeFactory().constructCollectionType(List.class, T);
+			tList=MapperUtil.MP.readValue(parser, type);
+			return tList;
+		}catch(Exception e){
+			e.printStackTrace();
+			return null;
+		}
+		
+	}
 }
