@@ -6,4 +6,8 @@ public class RabbitmqUtils {
 	public static final String EX="seckillDExchange";
 	public static final String queue="seckillQueue";
 	public static final String routingKey="seckillOne";
+	public static final String routingKey1="seckillOne";
+	public static final String routingKey2="seckillOne";
+	public static final String routingKey3="seckillOne";
+	public static final String routingKey4="seckillOne";
 }
