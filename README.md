@@ -9,6 +9,6 @@
 ## 架构
 SpringCloud+Mybatis+redis+mysql
 ## 微服务模块
-YearningPlace-common-resource
-YearningPlace-Jsoup
-YearningPlace-parent
+YearningPlace-common-resource  --- 公共资源（java bean utils）
+YearningPlace-Jsoup  ---  爬虫样例
+YearningPlace-parent   ---  版本控制类
