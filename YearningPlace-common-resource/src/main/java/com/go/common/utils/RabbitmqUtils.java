@@ -10,4 +10,7 @@ public class RabbitmqUtils {
 	public static final String routingKey2="seckillOne";
 	public static final String routingKey3="seckillOne";
 	public static final String routingKey4="seckillOne";
+	public static final String routingKey5="seckillOne";
+	public static final String routingKey6="seckillOne";
+	public static final String routingKey7="seckillOne";
 }

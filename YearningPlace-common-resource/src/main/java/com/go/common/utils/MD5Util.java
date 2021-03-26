@@ -39,4 +39,13 @@ public class MD5Util {
 	public static void main3(String[] args) {
 		System.out.println(md5("123"));
 	}
+	public static void main4(String[] args) {
+		System.out.println(md5("123"));
+	}
+	public static void main5(String[] args) {
+		System.out.println(md5("123"));
+	}
+	public static void main6(String[] args) {
+		System.out.println(md5("123"));
+	}
 }
