@@ -12,6 +12,6 @@ SpringCloud+Mybatis+redis+mysql
 YearningPlace-common-resource  --- 公共资源（java bean utils）
                  |------- utils  工具类
                  |------- pojo 样例类
-                 |------- vo 交互类
+                 |------- vo 交互类  前后端封装bean
 YearningPlace-Jsoup  ---  爬虫样例
 YearningPlace-parent   ---  版本控制类
